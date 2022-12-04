@@ -35,7 +35,7 @@ div{
   }
 }
 
-.welcome{
+.header__welcome{
   overflow: hidden;
   animation: type 4s linear;
   white-space: nowrap;
@@ -52,7 +52,7 @@ div{
   }
 }
 
-.context{
+.main__info{
   font-size: 20px;
   color: rgb(12, 115, 175);
 }
