@@ -1,0 +1,66 @@
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#human {
+  margin: auto;
+  position: relative;
+  animation: humanSpin 3s linear infinite;
+  animation-direction: alternate;
+  transform-origin: center;
+}
+
+@keyframes humanSpin {
+  from{
+    transform: rotateY(46deg);
+  }
+  to{
+    transform: rotateY(0deg);
+  }
+}
+
+#Leaves {
+  position: relative;
+  animation: leavesMovement 4s linear infinite;
+}
+
+@keyframes leavesMovement {
+  from{
+    transform: translateY(0%);
+  }
+  to{
+    transform: translateY(100%);
+  }
+}
+
+.welcome{
+  overflow: hidden;
+  animation: type 4s linear;
+  white-space: nowrap;
+  font-size: 36px;
+  color: rgb(175, 12, 175);
+}
+
+@keyframes type {
+  from{
+     width: 0;
+  }
+  to{
+   width: 50%;
+  }
+}
+
+.context{
+  font-size: 20px;
+  color: rgb(12, 115, 175);
+}
+
+svg{
+  transition: background-color 4s linear;
+}
+
+svg:hover{
+  background-color: rgb(255, 0, 0)
+}
