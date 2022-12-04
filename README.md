@@ -12,4 +12,4 @@ It is simple SVG animation, I have used animation and transition to apply animat
     ![figma](/Images/HappyTimes.svg)
 
 ## Demo
-To view the site click on the given link [My First Animation](https://polite-bublanina-d08b08.netlify.app/)
+To view the site click on the given link [My First Animation](https://superlative-longma-b17ce4.netlify.app/)
